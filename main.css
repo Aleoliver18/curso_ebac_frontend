@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header h1,
+section h2,
+section h3,
+form button {
+    font-family: 'Bree Serif', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgba(171,3,3,1);
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-list img {
+    height: 48px;
+}
+
+.brand-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #000;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    height: 380px;
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.contacts-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form textarea,
+form button,
+form input {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgba(171,3,3,1);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(184, 60, 60);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgba(171,3,3,1);
+}
+
+footer {
+    background-color: rgba(171,3,3,1);
+    color: #ecf0f1;
+    padding: 16px 0;
+}
